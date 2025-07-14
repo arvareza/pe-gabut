@@ -1,0 +1,85 @@
+Berikut adalah kode HTML untuk menghasilkan tampilan yang Anda inginkan tanpa
+menggunakan Tailwind CSS dan tanpa dekorasi di kanan dan kiri: ```html
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tujuan Perusahaan</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+      }
+      .text {
+        flex: 1;
+        padding: 20px;
+      }
+      .image {
+        flex: 0 0 150px; /* Atur lebar gambar */
+        padding-right: 20px;
+      }
+      .image img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      h1 {
+        color: #333;
+      }
+      .goals {
+        list-style: none;
+        padding: 0;
+      }
+      .goals li {
+        background-color: #e7f3fe;
+        border-radius: 5px;
+        margin: 10px 0;
+        padding: 10px;
+        color: #31708f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="your-image-source.png" alt="Gambar Perusahaan" />
+        <!-- Ganti dengan link gambar yang sesuai -->
+      </div>
+      <div class="text">
+        <h1>Tujuan perusahaan ini dibangun</h1>
+        <p>
+          Adalah berkaitan pelayanan kesehatan dan berfungsi sebagai pusat
+          pengembangan sumber daya. Di bawah ini adalah beberapa bentuk rasional
+          terkait misi perusahaan:
+        </p>
+        <ul class="goals">
+          <li>
+            Mengatasi gangguan mental, sehat, gangguan kecerdasan, kebiasaan,
+            depresif, dan perilaku.
+          </li>
+          <li>
+            Membina dan memberi saran untuk penyelesaian yang terkait dengan
+            pasien.
+          </li>
+          <li>
+            Menjadi tempat kedua pelatihan terutama perawatan yang sedang
+            berlangsung.
+          </li>
+          <li>
+            Membantu mengatasi rasa sakit, kesedihan, dan ketidakberdayaan.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
